@@ -1,0 +1,49 @@
+/* Aplica um estilo básico para o corpo da página */
+body {
+  font-family: Arial, sans-serif; /* Define a fonte padrão */
+  margin: 0; /* Remove as margens padrão */
+  padding: 0; /* Remove o preenchimento padrão */
+  height: 100vh; /* Altura total da janela */
+  display: flex; /* Usando flexbox */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  background-color: #f4f4f4; /* Cor de fundo suave */
+}
+
+/* Estiliza o contêiner principal */
+.container {
+  background-color: #fff; /* Cor de fundo branca para o contêiner */
+  padding: 20px; /* Espaçamento interno */
+  border-radius: 8px; /* Bordas arredondadas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  width: 100%;
+  max-width: 400px; /* Largura máxima para o contêiner */
+  text-align: center; /* Centraliza o conteúdo interno */
+}
+
+/* Estiliza os campos de input e o botão */
+input, button {
+  width: 100%; /* Faz com que ocupem toda a largura disponível */
+  padding: 10px; /* Adiciona preenchimento interno */
+  margin: 10px -10px; /* Adiciona espaço entre os campos */
+  border: 1px solid #ccc; /* Borda suave */
+  border-radius: 4px; /* Bordas arredondadas */
+  height: 40px; /* Define a altura dos inputs */
+}
+
+button {
+  background-color: #4CAF50; /* Cor de fundo verde */
+  color: white; /* Cor do texto do botão */
+  border: none; /* Remove a borda padrão */
+  cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}
+
+button:hover {
+  background-color: #45a049; /* Altera a cor do botão ao passar o mouse */
+}
+
+/* Estiliza o título */
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px; /* Espaçamento abaixo do título */
+}
