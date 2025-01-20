@@ -9,7 +9,7 @@ Inicializar backend:
 3. Aplicar `python app.py`  
 
 Inicializar frontend:  
-1. ABrir CMD
+1. Abrir CMD
 2.  Dar `cd "local_da_pasta_frontend"`  
 3. Aplicar `npm start`  
 
