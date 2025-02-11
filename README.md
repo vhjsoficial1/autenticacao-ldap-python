@@ -5,12 +5,12 @@ Servidor teste usado: https://www.forumsys.com/2022/05/10/online-ldap-test-serve
 
 Inicializar backend:  
 1. Abrir CMD
-2. Dar `cd "local_da_pasta_backend"`  
+2. Executar `cd "local_da_pasta_backend"`  
 3. Aplicar `python app.py`  
 
 Inicializar frontend:  
 1. Abrir CMD
-2. Dar `cd "local_da_pasta_frontend"`
+2. Executar `cd "local_da_pasta_frontend"`
 3. Aplicar `npm install`
 4. Aplicar `npm start`  
 
